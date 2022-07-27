@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import CssBaseline from '@mui/material/CssBaseline';
+import Layout from '../components/layout';
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -16,7 +17,9 @@ function MyApp({ Component, pageProps }) {
         />
       </Head>
       <CssBaseline />
-      <Component {...pageProps} />
+      <Layout pages={['Kurse', 'Blockpläne']}>
+        <Component {...pageProps} />
+      </Layout>
     </>
   );
 }

@@ -1,7 +1,6 @@
 import Head from 'next/head';
 import Link from 'next/link';
 import Box from '@mui/material/Box';
-import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 
 export default function Home() {
@@ -20,8 +19,6 @@ export default function Home() {
         alignItems="center"
       >
         <Typography variant="h1">Willkommen!</Typography>
-
-        <Button variant="contained">Hello MUI!</Button>
 
         <Link href="/test">Go to Test page</Link>
       </Box>
