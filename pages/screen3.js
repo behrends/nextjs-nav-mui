@@ -16,7 +16,7 @@ export default function Screen3() {
         justifyContent="center"
         alignItems="center"
       >
-        <Typography variant="h1">Screen 3</Typography>
+        <Typography variant="h2">Screen 3</Typography>
       </Box>
     </>
   );
