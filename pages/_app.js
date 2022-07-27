@@ -17,7 +17,13 @@ function MyApp({ Component, pageProps }) {
         />
       </Head>
       <CssBaseline />
-      <Layout pages={['Kurse', 'Blockpläne']}>
+      <Layout
+        pages={[
+          { name: 'Screen 1', route: '/' },
+          { name: 'Screen 2', route: '/screen2' },
+          { name: 'Screen 3', route: '/screen3' },
+        ]}
+      >
         <Component {...pageProps} />
       </Layout>
     </>

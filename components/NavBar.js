@@ -1,31 +1,22 @@
 import * as React from 'react';
-import AppBar from '@mui/material/AppBar';
-import Box from '@mui/material/Box';
-import Toolbar from '@mui/material/Toolbar';
-import Typography from '@mui/material/Typography';
-import Button from '@mui/material/Button';
+import Link from 'next/link';
+import { AppBar, Box, Toolbar, Button } from '@mui/material';
 
 export default function NavBar({ pages }) {
   return (
-    <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="fixed">
-        <Toolbar>
-          <Typography variant="h6" component="div" flexGrow={1}>
-            Home
-          </Typography>
-          <Box flexGrow={1} display="flex">
-            {pages.map((page) => (
-              <Button
-                key={page}
-                sx={{ my: 2, color: 'white', display: 'block' }}
-              >
-                {page}
+    <AppBar position="fixed">
+      <Toolbar>
+        <Box flex={1} display="flex">
+          {pages.map((page) => (
+            <Link key={page.name} href={page.route} passHref>
+              <Button component="a" color="inherit">
+                {page.name}
               </Button>
-            ))}
-          </Box>
-          <Button color="inherit">Login</Button>
-        </Toolbar>
-      </AppBar>
-    </Box>
+            </Link>
+          ))}
+        </Box>
+        <Button color="inherit">Login</Button>
+      </Toolbar>
+    </AppBar>
   );
 }

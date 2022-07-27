@@ -2,11 +2,11 @@ import Head from 'next/head';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 
-export default function Home() {
+export default function Screen2() {
   return (
     <>
       <Head>
-        <title>Screen 1</title>
+        <title>Screen 2</title>
       </Head>
 
       <Box
@@ -16,7 +16,7 @@ export default function Home() {
         justifyContent="center"
         alignItems="center"
       >
-        <Typography variant="h1">Screen 1</Typography>
+        <Typography variant="h1">Screen 2</Typography>
       </Box>
     </>
   );
