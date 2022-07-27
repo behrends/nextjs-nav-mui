@@ -15,7 +15,11 @@ export default function NavBar({ pages }) {
             </Link>
           ))}
         </Box>
-        <Button color="inherit">Login</Button>
+        <Link href="/login" passHref>
+          <Button component="a" color="inherit">
+            Login
+          </Button>
+        </Link>
       </Toolbar>
     </AppBar>
   );
