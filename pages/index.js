@@ -9,7 +9,6 @@ export default function Home() {
       <Head>
         <title>Beispiel mit MUI</title>
         <meta name="description" content="MUI Example" />
-        <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <Box
