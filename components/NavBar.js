@@ -10,16 +10,10 @@ export default function NavBar({ pages }) {
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="fixed">
         <Toolbar>
-          <Typography
-            variant="h6"
-            component="div"
-            sx={{ flexGrow: 1 }}
-          >
+          <Typography variant="h6" component="div" flexGrow={1}>
             Home
           </Typography>
-          <Box
-            sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}
-          >
+          <Box flexGrow={1} display="flex">
             {pages.map((page) => (
               <Button
                 key={page}
