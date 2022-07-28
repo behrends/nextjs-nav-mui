@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import CssBaseline from '@mui/material/CssBaseline';
-import Layout from '../components/layout';
+import Layout from '../components/Layout';
 
 function MyApp({ Component, pageProps }) {
   return (
