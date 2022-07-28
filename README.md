@@ -1,6 +1,10 @@
 Beispiel-Projekt mit [Next.js](https://nextjs.org/), das mit [Material UI (MUI)](https://mui.com) eine Navigationsleiste am oberen Bildschirmrand mit ein paar Screens implementiert.
+
+## Projekt direkt in Stackblitz öffnen
+
+[![In  StackBlitz bearbeiten](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/behrends/nextjs-nav-mui/tree/master)
  
-## Projekt verwenden
+## Projekt auf dem eigenen Rechner verwenden
 
 Dieses GitHub-Repository klonen oder herunterladen. 
 
