@@ -2,7 +2,7 @@ Beispiel-Projekt mit [Next.js](https://nextjs.org/), das mit [Material UI (MUI)]
 
 ## Projekt direkt in Stackblitz öffnen
 
-[![In  StackBlitz bearbeiten](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/behrends/nextjs-nav-mui/tree/master)
+[![In  StackBlitz bearbeiten](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/behrends/nextjs-nav-mui/tree/main)
  
 ## Projekt auf dem eigenen Rechner verwenden
 
