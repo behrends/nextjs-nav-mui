@@ -19,7 +19,7 @@ function MyApp({ Component, pageProps }) {
       <CssBaseline />
       <Layout
         pages={[
-          { name: 'Screen1', route: '/' },
+          { name: 'Index', route: '/' },
           { name: 'Screen2', route: '/screen2' },
           { name: 'Screen3', route: '/screen3' },
         ]}
