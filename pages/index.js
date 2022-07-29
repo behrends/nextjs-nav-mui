@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Screen 1</title>
+        <title>Index</title>
       </Head>
 
       <Box
