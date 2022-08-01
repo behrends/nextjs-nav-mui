@@ -2,13 +2,15 @@ Beispiel-Projekt mit [Next.js](https://nextjs.org/), das mit [Material UI (MUI)]
 
 &xrarr; Dieses Projekt kann als Vorlage für prototypische Webanwendungen eingesetzt werden.
 
+In der Datei `db.json` liegen Beispiel-Daten, die durch [https://my-json-server.typicode.com](https://my-json-server.typicode.com) zu einem „Fake-REST-Server“ umgeleitet werden.
+
 ## Projekt direkt in Stackblitz öffnen
 
 [![In  StackBlitz bearbeiten](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/behrends/nextjs-nav-mui/tree/main)
- 
+
 ## Projekt auf dem eigenen Rechner verwenden
 
-Dieses GitHub-Repository klonen oder herunterladen. 
+Dieses GitHub-Repository klonen oder herunterladen.
 
 [NodeJS](https://nodejs.org) muss installiert sein.
 
@@ -25,7 +27,6 @@ npm run dev
 ```
 
 Die Webanwendung mit der Adresse [http://localhost:3000](http://localhost:3000) im Browser öffnen.
-
 
 ## Learn More
 
