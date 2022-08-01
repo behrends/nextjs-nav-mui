@@ -1,0 +1,24 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "name": "TIF21A"
+    },
+    {
+      "id": 2,
+      "name": "TIF21B"
+    },
+    {
+      "id": 3,
+      "name": "TIF22A"
+    },
+    {
+      "id": 4,
+      "name": "WWI21A"
+    }
+  ],
+  "login": {
+    "username": "test",
+    "password": "notsecret"
+  }
+}
