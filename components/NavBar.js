@@ -1,34 +1,17 @@
 import * as React from 'react';
-import Link from 'next/link';
-import { useRouter } from 'next/router';
-import { AppBar, Box, Toolbar, Button } from '@mui/material';
+import { AppBar, Box, Toolbar } from '@mui/material';
+import NavLink from './NavLink';
 
 export default function NavBar({ pages }) {
-  const router = useRouter();
   return (
     <AppBar position="fixed">
       <Toolbar>
         <Box flex={1} display="flex">
-          {pages.map((page) => {
-            // underline current screen in navbar if equal to route
-            const style = {
-              textDecoration:
-                router.asPath === page.route ? 'underline' : 'none',
-            };
-            return (
-              <Link key={page.name} href={page.route} passHref>
-                <Button component="a" color="inherit" sx={style}>
-                  {page.name}
-                </Button>
-              </Link>
-            );
-          })}
+          {pages.map((page) => (
+            <NavLink name={page.name} href={page.route} />
+          ))}
         </Box>
-        <Link href="/login" passHref>
-          <Button component="a" color="inherit">
-            Login
-          </Button>
-        </Link>
+        <NavLink name="Login" href="/login" />
       </Toolbar>
     </AppBar>
   );
