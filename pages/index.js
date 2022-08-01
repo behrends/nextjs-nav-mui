@@ -1,8 +1,7 @@
 import Head from 'next/head';
 import Box from '@mui/material/Box';
-import Card from '@mui/material/Card';
-import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
+import CourseCard from '../components/CourseCard';
 
 export default function Home() {
   return (
@@ -19,21 +18,9 @@ export default function Home() {
         alignItems="center"
       >
         <Typography variant="h2">Index</Typography>
-        <Card sx={{ minWidth: 275, my: 2 }} raised>
-          <CardContent>
-            <Typography variant="h4">TIF21A</Typography>
-          </CardContent>
-        </Card>
-        <Card sx={{ minWidth: 275, my: 2 }} raised>
-          <CardContent>
-            <Typography variant="h4">TIF21B</Typography>
-          </CardContent>
-        </Card>
-        <Card sx={{ minWidth: 275, my: 2 }} raised>
-          <CardContent>
-            <Typography variant="h4">TIF22A</Typography>
-          </CardContent>
-        </Card>
+        <CourseCard name="TIF21A" />
+        <CourseCard name="TIF21B" />
+        <CourseCard name="TIF22A" />
       </Box>
     </>
   );
