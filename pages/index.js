@@ -18,7 +18,7 @@ export default function Home() {
         justifyContent="center"
         alignItems="center"
       >
-        <Typography variant="h2">Index!!!</Typography>
+        <Typography variant="h2">Index</Typography>
         <Card sx={{ minWidth: 275, my: 2 }} raised>
           <CardContent>
             <Typography variant="h4">TIF21A</Typography>
