@@ -8,7 +8,11 @@ export default function NavBar({ pages }) {
       <Toolbar>
         <Box flex={1} display="flex">
           {pages.map((page) => (
-            <NavLink name={page.name} href={page.route} />
+            <NavLink
+              key={page.name}
+              name={page.name}
+              href={page.route}
+            />
           ))}
         </Box>
         <NavLink name="Login" href="/login" />

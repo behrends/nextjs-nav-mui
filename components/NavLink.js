@@ -10,7 +10,7 @@ export default function NavLink({ name, href }) {
     textDecoration: router.asPath === href ? 'underline' : 'none',
   };
   return (
-    <Link key={name} href={href} passHref>
+    <Link href={href} passHref>
       <Button component="a" color="inherit" sx={style}>
         {name}
       </Button>
